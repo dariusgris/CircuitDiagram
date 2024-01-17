@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="svg" width="100" height="100">
+<rect x="0" y="0" width="100" height="100" fill="#FDDA0D"/>
+<rect x="5" y="5" width="90" height="90" fill="#FDDA0D" stroke="black" stroke-width="3"/>
+<rect x="6" y="48" width="88" height="4" fill="black" rx="3"/>
+<line x1="35" y1="35" x2="65" y2="65" stroke="black" stroke-width="4"/>
+<line x1="65" y1="35" x2="35" y2="65" stroke="black" stroke-width="4"/>
+<text x="50" y="20" dy="0.3em" text-anchor="middle" font-weight="bold" font-family="Verdana">L</text>
+</svg>

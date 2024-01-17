@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="svg" width="60" height="180">
+<polyline points="3 30, 55 3, 20 100, 55 90, 32 150" fill="none" stroke="red" stroke-width="3"/>
+<polygon points="25 148, 28 162, 38 152" fill="red" stroke="red" stroke-width="2"/>
+</svg>

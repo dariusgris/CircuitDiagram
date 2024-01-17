@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="svg" width="100" height="100">
+<rect x="0" y="0" width="100" height="100" fill="#FDDA0D"/>
+<rect x="5" y="5" width="90" height="90" fill="#FDDA0D" stroke="black" stroke-width="3"/>
+<path d="m 50 28 l 8 0 l -8 20 l 8 -1 l -10 18 l 5 -2 l -8 8 l -2 -11 l 3 4 l 6 -13 l -7 1 l 5.5 -24" fill="black" stroke="black" stroke-width="1"/>
+<rect x="20" y="72" width="60" height="4" fill="black" rx="1.5"/>
+<line x1="30" y1="74" x2="25" y2="87" stroke="black" stroke-width="3"/>
+<line x1="40" y1="74" x2="35" y2="87" stroke="black" stroke-width="3"/>
+<line x1="50" y1="74" x2="45" y2="87" stroke="black" stroke-width="3"/>
+<line x1="60" y1="74" x2="55" y2="87" stroke="black" stroke-width="3"/>
+<line x1="70" y1="74" x2="65" y2="87" stroke="black" stroke-width="3"/>
+<rect x="0" y="0" width="100" height="100" fill="white" opacity="0.8"/>
+<line x1="0" y1="0" x2="100" y2="100" stroke="red" stroke-width="5"/>
+<line x1="100" y1="0" x2="0" y2="100" stroke="red" stroke-width="5"/>
+</svg>
