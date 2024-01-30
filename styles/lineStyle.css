@@ -2,97 +2,194 @@
     margin: 0;
     padding: 0;
 }
+
 .main-container {
     width: 100%;
 }
-.title-text {
+
+.information-block {
     margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    color: black;
     word-wrap: break-word;
-    color: rgb(110, 135, 155);
 }
+
+.title-text {
+    text-align: center;
+    color: rgb(93, 51, 247);
+    margin-bottom: 20px;
+}
+
 .description-text {
-    margin: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    word-wrap: break-word;
+    padding: 10px;
+    border: 3px solid rgb(93, 51, 247);
+    width: 70%;
+    margin: auto;
+    font-size: 1.1em;
 }
-#mainBlockSvg {
+
+.description-text:hover {
+    -moz-box-shadow: 0 0 10px rgb(93, 51, 247);
+    -webkit-box-shadow: 0 0 10px rgb(93, 51, 247);
+    box-shadow: 0 0 10px rgb(93, 51, 247);
+}
+
+/*
+SVG
+*/
+#main-svg-container {
     width: 100%;
     height: 100vh;
 }
-.line, .vertical-line {
+
+.black-svg-vertical-line,
+.black-svg-horizontal-line,
+.black-svg-R-vertical-line {
     stroke: black;
     stroke-width: 3;
 }
+
+.blue-svg-horizontal-line,
+.blue-svg-start-horizontal-line,
+.blue-svg-R-vertical-line {
+    stroke: rgb(93, 51, 247);
+    stroke-width: 3;
+}
+
+.blue-svg-horizontal-line:hover,
+.blue-svg-R-vertical-line:hover {
+    stroke: rgb(255, 174, 0);
+    stroke-width: 5;
+    cursor: pointer;
+}
+
+.black-work-svg-circle {
+    fill: white;
+    stroke: black;
+    stroke-width: 2;
+}
+
+.blue-active-svg-circle {
+    fill: white;
+    stroke: rgb(93, 51, 247);
+    stroke-width: 2;
+}
+
+.blue-active-svg-circle:hover {
+    stroke: rgb(255, 174, 0);
+    stroke-width: 4;
+    cursor: pointer;
+}
+
+.black-not-active-svg-circle,
+.black-pointer-svg-circle {
+    fill: white;
+    stroke: black;
+    stroke-width: 2;
+    pointer-events: none;
+}
+
+.electrical-receivers-block:hover {
+    -moz-box-shadow: 0 0 10px rgb(93, 51, 247);
+    -webkit-box-shadow: 0 0 10px rgb(93, 51, 247);
+    box-shadow: 0 0 10px rgb(93, 51, 247);
+}
+
+.direct-voltage {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.image-block-down-part {
+    fill: white;
+    stroke: black;
+    stroke-width: 2;
+}
+
+.rect-block-down-part {
+    stroke: rgb(93, 51, 247);
+    stroke-width: 4;
+    fill: rgba(0, 0, 0, 0);
+}
+
+
+.line,
+.vertical-line {
+    stroke: black;
+    stroke-width: 3;
+}
+
 .resistance-lines {
     stroke: rgb(10, 75, 216);
     stroke-width: 3;
 }
+
 .resistance-lines:hover {
     stroke: rgb(255, 197, 6);
-    stroke-width: 4;
+    stroke-width: 3;
     cursor: pointer;
 }
+
 .active-line {
     stroke: rgb(10, 75, 216);
     stroke-width: 3;
 }
+
 .active-line2:hover {
     stroke: rgb(153, 0, 255);
     stroke-width: 4;
 }
+
 .circle-A {
     fill: white;
     stroke: black;
     stroke-width: 3;
 }
+
 .letter-A {
     color: black;
 }
-.power-supply {
-    fill: white;
-    stroke: rgb(10, 75, 216);
-    stroke-width: 2;
-}
+
+
+
 .power-supply:hover {
     stroke: rgb(255, 197, 6);
     stroke-width: 3;
 }
+
 .power-supply:last-child {
     fill: rgb(73, 0, 0);
     stroke: rgb(0, 0, 0);
     stroke-width: 2;
 }
-.people-svg {
-    width: 20%;
-    height: 30%;
-}
+
+
+
 .label-vertical-lines {
     stroke: rgb(10, 75, 216);
 }
+
 .active-vertical-line {
     stroke: rgb(10, 75, 216);
     stroke-width: 3;
 }
+
 .active-vertical-line:hover {
     stroke: rgb(255, 197, 6);
     stroke-width: 4;
     cursor: pointer;
 }
+
 #arrow:hover {
     fill: rgb(255, 197, 6);
 }
-.vertical-only-black-line {
-    stroke:black;
-    stroke-width: 3;
-}
-.vertical-black-line-circle {
+
+.black-svg-circle {
     fill: black;
     stroke: black;
     stroke-width: 2;
 }
+
 .rectBlockElectrical {
     fill: white;
     stroke: black;
