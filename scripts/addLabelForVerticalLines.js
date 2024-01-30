@@ -1,0 +1,10 @@
+SVG_LABEL_TOP.selectAll('.label-for-vertical-top-line')
+.data(R_VERTICAL_BLACK_LINES)
+.enter()
+.append('text')
+.attr('class', 'label-for-vertical-top-line')
+.attr('x',  d => d.x + "%")
+.attr('y',  Y2_VERTICAL_R_LINE + 5 + "%")
+.attr('dy', '0.3em')
+.attr('text-anchor', 'middle')
+.text(d => d.label);
