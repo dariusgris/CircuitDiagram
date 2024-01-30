@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <link href="styles/lineStyle.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="main-container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="information-block">
             <h1 class="title-text">Заголовок</h1>
             <p class="description-text">
-                Основные элементы схемы являются интерактивными. Нажимая на них, Вы можете 
+                Основные элементы схемы являются интерактивными. Нажимая на них, Вы можете
                 изменить расчетные параметры. После ввода исходных данных нажмите кнопку "Расчет".
             </p>
-            <svg id="mainBlockSvg">
-                <g id="groupContainer">
-                    <svg id="topPartSvgScheme"></svg>
-                    <svg id="peoplePartSvgScheme" y="-15vh"></svg>
-                    <svg width="300" height="200">
-                        <defs>
-                            <marker
-                            id="arrow"
-                            markerUnits="strokeWidth"
-                            markerWidth="10"
-                            markerHeight="10"
-                            viewBox="0 0 10 10"
-                            refX="6"
-                            refY="6"
-                            orient="auto">
-                            <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: rgb(10, 75, 216);"></path>
-                            </marker>
-                        </defs>
-                        
-                        <!-- <line x1="0" y1="0" x2="200" y2="50"  stroke="red" stroke-width="2" marker-end="url(#arrow)"/> -->
-                        
-                        <!-- <path d="M20,70 T80,100 T160,80 T200,90" fill="white" stroke="red" stroke-width="2" marker-start="url(#arrow)" marker-mid="url(#arrow)" marker-end="url(#arrow)"/> -->
-                        </svg>
-                </g>
-            </svg>
         </div>
-       
-        <script src="scripts/node.js"></script>
-    </body>
+        <svg id="main-svg-container">
+            <g>
+                <svg id="top-part-svg-scheme"></svg>
+                <svg id="people-svg-part" y="-6vh"></svg>
+                <svg id="down-part-svg-scheme" y="50vh"></svg>
+            </g>
+        </svg>
+    </div>
+    <script src="scripts/addDirectVoltageSignature.js"></script>
+    <script src="scripts/createBlackLine.js"></script>
+    <script src="scripts/addLabelForHorizontalLines.js"></script>
+    <script src="scripts/addLabelForVerticalLines.js"></script>
+    <script src="scripts/addPeople.js"></script>
+    <script src="scripts/addActiveBlueLine.js"></script>
+    <script src="scripts/addAInCircle.js"></script>
+    <script src="scripts/addDownPartSVGBlock.js"></script>
+    <script src="scripts/createCircle.js"></script>
+    <script src="scripts/addElectricalReceivers.js"></script>
+    <script src="scripts/addLoadBlock.js"></script>
+    <script src="scripts/pressFunction.js"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+</body>
 </html>
